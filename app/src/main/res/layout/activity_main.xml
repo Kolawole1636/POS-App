@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Point Of Sales App"
+            android:textSize="30sp"
+            android:textColor="@color/design_default_color_error"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Category"
+            android:id="@+id/btn1"
+            android:textSize="11dp"
+            android:background="#f00001"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Brand"
+            android:id="@+id/btn2"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Product"
+            android:textSize="13dp"
+            android:id="@+id/btn3"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Category View"
+            android:id="@+id/btn4"
+            android:textSize="11dp"
+            android:background="#f00001"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Brand View"
+            android:id="@+id/btn5"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Product View"
+            android:textSize="13dp"
+            android:id="@+id/btn6"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Pos"
+            android:id="@+id/btn7"
+            android:textSize="16dp"
+            android:background="#f00001"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Pos View"
+            android:id="@+id/btn8"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="User"
+            android:textSize="16dp"
+            android:id="@+id/btn9"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="Logout"
+            android:id="@+id/btn10"
+            android:textSize="15dp"
+            android:background="#f00001"
+            android:textColor="#fff"
+            android:layout_margin="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
